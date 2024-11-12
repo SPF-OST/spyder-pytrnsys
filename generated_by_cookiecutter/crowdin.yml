@@ -1,0 +1,15 @@
+# ----------------------------------------------------------------------------
+# Copyright © 2024, Damian Birchler
+#
+# Licensed under the terms of the GNU General Public License v3
+# ----------------------------------------------------------------------------
+
+commit_message: '[ci skip] New %language% translation from Crowdin'
+append_commit_message: false
+files:
+  - source: /spyder_pytrnsys/spyder/locale/spyder_pytrnsys.pot
+    translation: /spyder_pytrnsys/spyder_pytrnsys/locale/%two_letters_code%/LC_MESSAGES/%file_name%.po
+    languages_mapping:
+      two_letters_code:
+        pt-BR: pt_BR
+        zh-CN: zh_CN
