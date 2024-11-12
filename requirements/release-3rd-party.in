@@ -1,0 +1,27 @@
+-c constraints/dev.in
+
+PyQT5
+matplotlib
+numpy
+scipy
+pandas
+seaborn
+bokeh
+dataclasses_jsonschema
+lark
+appdirs
+Jinja2
+qtconsole
+
+# used by IPython, which is used by qtconsole in turn
+pickleshare
+
+typer
+typing_extensions
+
+packaging
+
+pydantic
+pyyaml
+
+xmlschema

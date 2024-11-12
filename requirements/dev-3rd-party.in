@@ -1,0 +1,8 @@
+-c constraints/dev.in
+
+-r test-3rd-party.in
+
+cookieclutter
+pip-compile-multi
+pre-commit
+sphinx

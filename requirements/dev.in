@@ -1,0 +1,12 @@
+-c constraints/dev.in
+
+-r dev-3rd-party.in
+
+-e file:. --config-settings editable_mode=compat
+
+-e file:../pytrnsys --config-settings editable_mode=compat
+-e file:../pytrnsys_gui --config-settings editable_mode=compat
+
+-e file:../pytrnsys-spyder --config-settings editable_mode=compat
+-e file:../spyder-kernels --config-settings editable_mode=compat
+
